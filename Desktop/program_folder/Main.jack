@@ -1,0 +1,12 @@
+class Main{
+	function void main(){
+		var int w, h;
+		let w = Keyboard.readInt("Please enter the width in cm: ");
+		let h = Keyboard.readInt("Please enter the height in cm: ");
+
+		do Output.printString("The area is: ");
+		do Output.printInt(w * h);
+		do Output.println();
+	return;
+	}
+}
